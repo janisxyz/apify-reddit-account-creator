@@ -1,10 +1,17 @@
 # Apify Reddit Account Creator
 
-**Disclaimer**: This is for educational purposes only. Reddit prohibits automated account creation.
+**⚠️ DISCLAIMER**: Creating accounts via automation violates Reddit's Terms of Service. This is for educational purposes only. Use at your own risk. Accounts may be banned quickly.
 
-## Usage
+## Auto Mode (No Input Needed)
+- Run without any parameters → fully auto-generates username, password, and temp email.
+- Credentials logged + saved to dataset.
 
-1. Deploy as Apify Actor with Playwright.
-2. Provide input: username, password, email, proxyUrl.
+## Setup
+1. Clone repo
+2. `npm install`
+3. `apify run` (local) or push to Apify
 
-Update selectors and add CAPTCHA solver for reliability.
+## Notes
+- Still requires manual CAPTCHA/email verification handling in most cases.
+- Update selectors as Reddit UI changes.
+- Use proxies for better success.

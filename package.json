@@ -1,0 +1,15 @@
+{
+  "name": "apify-reddit-account-creator",
+  "version": "1.0.0",
+  "description": "Reddit account creator using Crawlee + Playwright",
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+    "@apify/actor-sdk": "^3.0.0",
+    "@crawlee/playwright": "^3.0.0",
+    "apify": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}

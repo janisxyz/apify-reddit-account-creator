@@ -3,10 +3,28 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
-    "username": { "type": "string" },
-    "password": { "type": "string" },
-    "email": { "type": "string" },
-    "proxyUrl": { "type": "string" }
-  },
-  "required": ["username", "password", "email"]
+    "username": {
+      "title": "Username",
+      "type": "string",
+      "description": "Optional: Desired Reddit username (auto-generated if missing)"
+    },
+    "password": {
+      "title": "Password",
+      "type": "string",
+      "description": "Optional: Account password (auto-generated if missing)"
+    },
+    "email": {
+      "title": "Email",
+      "type": "string",
+      "description": "Optional: Email address (auto-generated if missing)"
+    },
+    "proxyUrls": {
+      "title": "Proxy URLs",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optional list of proxy URLs"
+    }
+  }
 }
