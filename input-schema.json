@@ -6,17 +6,17 @@
     "username": {
       "title": "Username",
       "type": "string",
-      "description": "Optional: Desired Reddit username (auto-generated if missing)"
+      "description": "Desired Reddit username"
     },
     "password": {
       "title": "Password",
       "type": "string",
-      "description": "Optional: Account password (auto-generated if missing)"
+      "description": "Account password"
     },
     "email": {
       "title": "Email",
       "type": "string",
-      "description": "Optional: Email address (auto-generated if missing)"
+      "description": "Email address for verification"
     },
     "proxyUrls": {
       "title": "Proxy URLs",
@@ -24,7 +24,8 @@
       "items": {
         "type": "string"
       },
-      "description": "Optional list of proxy URLs"
+      "description": "Optional list of proxy URLs (e.g. http://user:pass@ip:port)"
     }
-  }
+  },
+  "required": []
 }
