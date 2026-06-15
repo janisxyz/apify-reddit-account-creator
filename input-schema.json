@@ -1,0 +1,12 @@
+{
+  "title": "Reddit Account Creator",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "username": { "type": "string" },
+    "password": { "type": "string" },
+    "email": { "type": "string" },
+    "proxyUrl": { "type": "string" }
+  },
+  "required": ["username", "password", "email"]
+}
